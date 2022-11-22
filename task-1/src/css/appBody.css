@@ -1,0 +1,17 @@
+#body-container {
+  /* width: 100vw; */
+  height: 90vh;
+  padding: 30px 25px;
+}
+
+#list-container {
+  height: 75vh;
+  overflow: hidden;
+  padding: 0 8px;
+  border: 1px solid #3dbae8;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

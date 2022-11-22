@@ -1,0 +1,17 @@
+#title-container {
+  height: 10vh;
+  width: 100vw;
+  background-color: #3dbae8;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+}
+
+#title-text {
+  color: black;
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+}
