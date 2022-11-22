@@ -1,12 +1,14 @@
 #card-container {
   max-width: 600px;
   min-width: 340px;
-  height: 50px;
-  border: 2px solid #3dbae8;
+  height: 80px;
+  border: 1px solid #536065;
+  background-color: #bbdbe8;
   border-radius: 16px;
-  margin-bottom: 6px;
-}
-
-#product-title-price-container {
-    
+  margin: 6px 0;
+  padding: 0 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 4px 5px #888888;
 }

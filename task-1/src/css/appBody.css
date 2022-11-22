@@ -5,11 +5,8 @@
 }
 
 #list-container {
-  height: 75vh;
   overflow: hidden;
   padding: 0 8px;
-  border: 1px solid #3dbae8;
-  border-radius: 14px;
   display: flex;
   flex-direction: column;
   justify-content: center;
