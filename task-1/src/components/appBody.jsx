@@ -11,7 +11,7 @@ function AppBody() {
             key={index}
             title={product.title}
             price={product.price}
-            imgUrl={product.firstPhotoUrl}
+            firstPhotoUrl={product.firstPhotoUrl}
           />
         ))}
       </div>

@@ -1,7 +1,7 @@
 #title-container {
   height: 10vh;
-  width: 100vw;
-  background-color: #3dbae8;
+  width: 100%;
+  background-color: #167193;
   position: relative;
   display: flex;
   justify-content: center;
@@ -10,7 +10,7 @@
 }
 
 #title-text {
-  color: black;
+  color: white;
   font-weight: 600;
   font-size: 30px;
   text-align: center;

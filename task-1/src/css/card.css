@@ -3,7 +3,7 @@
   min-width: 340px;
   height: 80px;
   border: 1px solid #536065;
-  background-color: #bbdbe8;
+  background-color: #abe7ff;
   border-radius: 16px;
   margin: 6px 0;
   padding: 0 5px;
@@ -11,4 +11,9 @@
   justify-content: space-between;
   align-items: center;
   box-shadow: 4px 5px #888888;
+}
+
+.card-image {
+  margin-right: 5px;
+  border-radius: 32px;
 }
