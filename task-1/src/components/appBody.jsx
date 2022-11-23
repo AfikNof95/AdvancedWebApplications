@@ -12,6 +12,9 @@ function AppBody() {
             title={product.title}
             price={product.price}
             firstPhotoUrl={product.firstPhotoUrl}
+            secondPhotoUrl={product.secondPhotoUrl}
+            seller={product.seller}
+            description={product.description}
           />
         ))}
       </div>

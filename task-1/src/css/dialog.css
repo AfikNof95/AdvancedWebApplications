@@ -1,0 +1,32 @@
+#dialog-container {
+  height: 220px;
+  z-index: 100;
+  width: 500px;
+  border: 1px solid #144457;
+  border-radius: 20px;
+  background-color: #417f98;
+  color: white;
+}
+
+#top-section-wrapper {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#close-btn {
+  background-color: inherit;
+  border-radius: 4px;
+  border: 1px solid white;
+  color: inherit;
+}
+
+#close-btn:hover {
+  cursor: pointer;
+}
+
+#description-border {
+  border-top: 1px solid white;
+}
