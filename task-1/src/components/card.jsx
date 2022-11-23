@@ -1,12 +1,12 @@
 import "../css/card.css";
 
 const onCardClick = () => {
-  alert("lol");
-  window.open("http://localhost:3000/product", "_blank", "noopener,noreferrer");
+  window.open("http://localhost:3000/", "_blank", "noopener,noreferrer");
 };
 
 function Card(props) {
-  const { title, price, secondPhotoUrl, seller, description } = props;
+  const { title, price, firstPhotoUrl, secondPhotoUrl, seller, description } =
+    props;
 
   return (
     <div id="card-container" onClick={onCardClick}>
@@ -14,7 +14,12 @@ function Card(props) {
         <div>{props.title}</div>
         <div>{props.price}</div>
       </div>
-      <span>{props.imgUrl}Pic container</span>
+      <img className="card-image"
+        src={props.firstPhotoUrl}
+        alt={props.title}
+        width="65px"
+        height="65px"
+      />
     </div>
   );
 }
