@@ -1,5 +1,4 @@
 #body-container {
-  /* width: 100vw; */
   height: 90vh;
   padding: 30px 25px;
 }
@@ -11,4 +10,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+#modal {
+  position: absolute;
+  top: 30%;
 }

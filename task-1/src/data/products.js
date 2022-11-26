@@ -12,7 +12,7 @@ export const products = [
     title: "Apple",
     price: "8₪",
     firstPhotoUrl:
-      "https://freepngimg.com/thumb/apple_fruit/24921-9-apple-fruit-thumb.png",
+      "https://www.cupitfood.com/wp-content/uploads/2018/08/green-apple.jpg",
     secondPhotoUrl:
       "https://storage.googleapis.com/bubble-finder/$NkpXeE8hos4kpWJh8YGn18X9KnLPq8zNHNwwEsIzjWAzcAphBFDPL0",
     seller: "Fruit Guy",
