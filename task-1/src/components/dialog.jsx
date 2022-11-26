@@ -1,30 +1,26 @@
 import "../css/dialog.css";
 import React, { useState } from "react";
 
-const onCloseHandler = () => {
-  alert("Closes in less than 6 seconds");
-};
-
 function Dialog(props) {
-  const { title, secondPhotoUrl, seller, description } = props;
+  const { title, secondPhotoUrl, seller, description, onclose } = props;
 
   return (
     <>
       <div id="dialog-container">
         <div id="top-section-wrapper">
-          <div>{props.title}</div>
-          <div>Seller: {props.seller}</div>
-          <button type="button" id="close-btn" onClick={onCloseHandler}>
+          <div>{title}</div>
+          <div>Seller: {seller}</div>
+          <button type="button" id="close-btn" onClick={onclose}>
             Close ❌
           </button>
         </div>
         <div id="description-border">
-          <p>{props.description}</p>
+          <p>{description}</p>
         </div>
         <img
           className="card-image"
-          src={props.secondPhotoUrl}
-          alt={props.title}
+          src={secondPhotoUrl}
+          alt={title}
           width="65px"
           height="65px"
         />
